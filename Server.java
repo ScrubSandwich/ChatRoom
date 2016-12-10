@@ -1,3 +1,6 @@
+//Server for the Chat Room | Can accept any amount of client connections
+//This server constantly waits for a new client to connect.             
+//Once a new client connects, it starts a Client Session as a new thread.
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,9 +10,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-//Server for the Chat Room | Can accept any amount of client connections
-//This server constantly waits for a new client to connect.             
-//Once a new client connects, it starts a Client Session as a new thread.
 public class Server {
     
     ServerSocket listener;
