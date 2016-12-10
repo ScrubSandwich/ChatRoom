@@ -115,11 +115,6 @@ public class Client extends JFrame {
                 }                
             }
         });
-        
-        
-        
-        
-
     }
     
     private void establishConnection() throws IOException{
